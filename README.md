@@ -1,3 +1,3 @@
 Main Github Page
 
-Satic files for CTFs
+Static files for CTFs
